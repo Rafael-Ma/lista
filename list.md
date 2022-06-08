@@ -2,14 +2,16 @@
 
 ## 1. Implemente um programa para calcular a área de um trapézio, onde:
 h = altura
-B = base maior
-b = base menor
-Área = (h . (b + B)) / 2
 
+B = base maior
+
+b = base menor
+
+Área = (h . (b + B)) / 2
 ## 2. Faça o programa acima calcular utilizando valores de ponto flutuante e depois imprima na tela duas informações:
 Valor exato da área:
-Valor arredondado para inteiro:
 
+Valor arredondado para inteiro:
 ## 3. Calcule o valor das seguintes equações:
 a. 3 – 2 – 1 + 2 + 1 + 3
 
