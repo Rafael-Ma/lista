@@ -1,4 +1,4 @@
-package exercicio3;
+package pagina_26;
 
 public class exer3 {
     public static void main(String[] args) {
