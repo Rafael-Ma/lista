@@ -41,5 +41,4 @@ valor a ser pago ao funcionário seja inferior a R$ 50,00: *"Atenção, dirija-s
 |       | \
 |  ___  |_| 
 |_|   |_|
-~~~
-    
+~~~ 

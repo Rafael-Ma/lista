@@ -1,4 +1,4 @@
-package pagina_26;
+package lista;
 
 import java.util.Scanner;
 
