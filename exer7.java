@@ -5,17 +5,20 @@ public class exer7 {
         try (Scanner input = new Scanner(System.in)) {
             // Atributos
             int horas;
-            float salario;
+            float valor;
 
             // Input
             System.out.print("Quantidade de horas trabalhadas: ");
             horas = input.nextInt();
 
             // Cálculo
-            salario = (float) (horas * 10.25);
+            valor = (float) (horas * 10.25);
 
             // Output
-            System.out.println("Salário a ser pago R$" + salario);
+            System.out.println("Valor a ser ao funcionário pago R$" + valor);
+
+            if (valor < 50)
+                System.out.println("Atenção, dirija-se à direção do Hotel!");
         }
     }
 }

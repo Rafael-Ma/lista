@@ -4,36 +4,18 @@ public class exer6 {
     public static void main(String[] args) {
         try (Scanner input = new Scanner(System.in)) {
             // Atributos
-            int num;
-            boolean primo;
-            String tipo;
+            int horas;
+            float salario;
 
             // Input
-            System.out.print("Digite um número: ");
-            num = input.nextInt();
+            System.out.print("Quantidade de horas trabalhadas: ");
+            horas = input.nextInt();
 
             // Cálculo
-            if (num % 2 == 0) {
-                tipo = "par";
-            }
-            else {
-                tipo = "impar";
-            }
-
-            primo = true;
-            for(int i = 2; i < num; i++) {            
-                if(num % i == 0) {
-                    primo = false;
-                }
-            }
+            salario = (float) (horas * 10.25);
 
             // Output
-            if (primo) {
-                System.out.println("O número " + num + " é " + tipo + " e também é primo.");
-            }
-            else {
-                System.out.println("O número " + num + " é " + tipo + " e não é primo.");
-            }
+            System.out.println("Salário a ser pago R$" + salario);
         }
     }
 }

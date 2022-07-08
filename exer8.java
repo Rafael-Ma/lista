@@ -1,24 +1,42 @@
 import java.util.Scanner;
 
 public class exer8 {
+
+    static void quiloPlibra (float quilo) {
+        float libra = (float) (quilo * 2.20462);
+        System.out.println(quilo + " quilos equivalem à " + libra + " libras.");
+    }
+
+    static void libraPquilo (float libra) {
+        float quilo = (float) (libra / 2.20462);
+        System.out.println(libra + " libras iquivalem à " + quilo + " quilos.");
+    }
+
     public static void main(String[] args) {
-        try (Scanner input = new Scanner(System.in)) {
+        try (Scanner input = new Scanner(System.in)){
             // Atributos
-            int horas;
-            float valor;
+            int valor, menu;
 
-            // Input
-            System.out.print("Quantidade de horas trabalhadas: ");
-            horas = input.nextInt();
+            // Menu
+            System.out.println("O quê você deseja fazer? ");
+            System.out.println("1. Converter quilogramas em libras.");
+            System.out.println("2. Converter libras em quilogramas.");
+            menu = input.nextInt();
 
-            // Cálculo
-            valor = (float) (horas * 10.25);
+            // Conversão 1
+            if (menu == 1) {
+                System.out.println("Digite o valor a ser convertido: ");
+                valor = input.nextInt();
 
-            // Output
-            System.out.println("Valor a ser ao funcionário pago R$" + valor);
+                quiloPlibra(valor);
+            }
+            // Conversão 2
+            else {
+                System.out.println("Digite o valor a ser convertido: ");
+                valor = input.nextInt();
 
-            if (valor < 50)
-                System.out.println("Atenção, dirija-se à direção do Hotel!");
+                libraPquilo(valor);
+            }
         }
     }
 }
