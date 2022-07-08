@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class exer2{
+public class exer1{
     public static void main(String[] args) {
         try (Scanner input = new Scanner(System.in)) {
             // Atributos
