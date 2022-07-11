@@ -22,9 +22,6 @@ duas informações:
 
 2. Faça um programa para imprimir os números primos de 1 a 123.
 
-3. Faça um programa para ler um número do teclado e imprimir na tela se ele é par ou ímpar.
-    * Imprima também se ele é primo.
-
 4. O valor pago por um Hotel da Praia de Iracema para seus porteiros é de R$ 10,25 por hora de
 trabalho. Faça um programa que pergunte ao usuário quantas horas ele trabalhou e imprima na
 tela o valor do salário a ser recebido por ele.
